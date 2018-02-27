@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="887c757c-bf04-4d07-b975-1b7e922ec49b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/application.js" afterPath="$PROJECT_DIR$/lib/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/express.js" afterPath="$PROJECT_DIR$/lib/express.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router/index.js" afterPath="$PROJECT_DIR$/lib/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router/layer.js" afterPath="$PROJECT_DIR$/lib/router/layer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router/route.js" afterPath="$PROJECT_DIR$/lib/router/route.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,15 +37,15 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="42" column="140" lean-forward="false" selection-start-line="42" selection-start-column="140" selection-end-line="42" selection-end-column="140" />
+            <state relative-caret-position="616">
+              <caret line="509" column="147" lean-forward="false" selection-start-line="509" selection-start-column="147" selection-end-line="509" selection-end-column="147" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#2774#3564#0" expanded="false" />
                 <element signature="e#3674#8409#0" expanded="false" />
                 <element signature="e#7378#8407#0" expanded="false" />
                 <element signature="e#8552#10190#0" expanded="false" />
-                <element signature="e#12444#12594#0" expanded="false" />
+                <element signature="e#10753#11989#0" expanded="false" />
                 <element signature="n#!!block;n#appendMethods#0" expanded="false" />
                 <element signature="n#!!block;n#getPathname#0" expanded="false" />
                 <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -67,13 +63,12 @@
       <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/router/route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2231">
-              <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="226">
+              <caret line="193" column="46" lean-forward="false" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="46" />
               <folding>
                 <element signature="e#1114#1340#0" expanded="false" />
                 <element signature="e#1474#1761#0" expanded="false" />
                 <element signature="e#3410#3882#0" expanded="false" />
-                <element signature="e#3917#4776#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -153,6 +148,7 @@
       <find>stack</find>
       <find>methods</find>
       <find>handle</find>
+      <find>Layer</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -695,12 +691,12 @@
       <workItem from="1519462166807" duration="3319000" />
       <workItem from="1519614331650" duration="360000" />
       <workItem from="1519632523459" duration="55000" />
-      <workItem from="1519632819502" duration="28888000" />
+      <workItem from="1519632819502" duration="30392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62357000" />
+    <option name="totallyTimeSpent" value="63861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -760,7 +756,7 @@
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -829,7 +825,7 @@
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -898,7 +894,7 @@
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -967,7 +963,7 @@
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -1036,7 +1032,7 @@
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
@@ -1280,19 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/router/route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2231">
-          <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
-          <folding>
-            <element signature="e#1114#1340#0" expanded="false" />
-            <element signature="e#1474#1761#0" expanded="false" />
-            <element signature="e#3410#3882#0" expanded="false" />
-            <element signature="e#3917#4776#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -1311,17 +1294,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/router/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="193" column="46" lean-forward="false" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="46" />
+          <folding>
+            <element signature="e#1114#1340#0" expanded="false" />
+            <element signature="e#1474#1761#0" expanded="false" />
+            <element signature="e#3410#3882#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="42" column="140" lean-forward="false" selection-start-line="42" selection-start-column="140" selection-end-line="42" selection-end-column="140" />
+        <state relative-caret-position="616">
+          <caret line="509" column="147" lean-forward="false" selection-start-line="509" selection-start-column="147" selection-end-line="509" selection-end-column="147" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2774#3564#0" expanded="false" />
             <element signature="e#3674#8409#0" expanded="false" />
             <element signature="e#7378#8407#0" expanded="false" />
             <element signature="e#8552#10190#0" expanded="false" />
-            <element signature="e#12444#12594#0" expanded="false" />
+            <element signature="e#10753#11989#0" expanded="false" />
             <element signature="n#!!block;n#appendMethods#0" expanded="false" />
             <element signature="n#!!block;n#getPathname#0" expanded="false" />
             <element signature="n#!!block;n#getProtohost#0" expanded="false" />
