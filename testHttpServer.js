@@ -48,12 +48,26 @@ app.use('/user/:id', function (req, res, next) {
 });
 app.use(function (req, res, next) {
   console.log('usessssssssssssss');
+
   next();
 });
 
 // 路由和句柄函数(中间件系统)，处理指向 /user/:id 的 GET 请求
-app.get('/user/:id', function (req, res, next) {
-  res.send('USER');
+// app.get('/user/:id', function (req, res, next) {
+//   res.send('get');
+//   next()
+// });
+app.post('/user/:id', function (req, res, next) {
+  res.send('post');
+  next()
+});
+app.put('/user/:id', function (req, res, next) {
+  res.send('put');
+  next()
+});
+app.all('/user/:id', function (req, res, next) {
+  console.log('all');
+  next();
 });
 
 
